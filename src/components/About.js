@@ -27,7 +27,7 @@ const About = () => (
           <div className="columns contact-details">
             <h2>Contact Details</h2>
             <p className="address">
-              <span>Jonathan Doe</span>
+              <span>Joe Edwards</span>
               <br />
               <span>
                 1600 Amphitheatre Parkway
