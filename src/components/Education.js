@@ -11,26 +11,29 @@ const Education = () => (
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>University of Life</h3>
+          <h3>University of Oregon</h3>
           <p className="info">
-            Master in Graphic Design
+            B.S. Business Administration 
             <span>&bull;</span>
-            <em className="date">April 2007</em>
+            Focus on Entrepreneurship
+            <span>&bull;</span>
+            <em className="date">June 2008</em>
+            <br />
+            
+            B.S. Political Science
+            <span>&bull;</span>
+            Focus on Game Theory and Organizational Behavior
+            <span>&bull;</span>
+            <em className="date">June 2008</em>
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
+          Hot chicken before they sold out kinfolk, normcore artisan iceland portland taiyaki bitters ethical neutra ramps vice austin pinterest. Farm-to-table tofu listicle, knausgaard PBR&B iceland thundercats cronut wolf portland letterpress kitsch tote bag microdosing. Vape bushwick sartorial meggings sustainable coloring book vinyl enamel pin. Tilde offal kickstarter paleo chambray bushwick, man braid celiac fingerstache quinoa palo santo.
           </p>
         </div>
       </div>
 
-      <div className="row item">
+      {/* <div className="row item">
         <div className="twelve columns">
           <h3>School of Cool Designers</h3>
           <p className="info">
@@ -40,15 +43,10 @@ const Education = () => (
           </p>
 
           <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
+          Irony offal succulents, raclette flannel green juice hell of woke. Beard fixie post-ironic tacos swag offal. Church-key swag twee raclette subway tile tbh pok pok tattooed shaman williamsburg PBR&B. Ramps stumptown drinking vinegar slow-carb chicharrones tumblr hexagon pug hell of cronut la croix franzen. Snackwave unicorn four loko, keffiyeh letterpress bitters edison bulb.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   </div>
 );

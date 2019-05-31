@@ -11,41 +11,30 @@ const Work = () => (
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>Awesome Design Studio</h3>
+          <h3>Awesome Place</h3>
           <p className="info">
-            Senior UX Designer
+            Senior Something
             <span>&bull;</span>
             <em className="date">March 2010 - Present</em>
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
+            Four dollar toast put a bird on it try-hard marfa cred occupy squid synth lomo viral chambray jean shorts bespoke irony crucifix. Succulents before they sold out flexitarian taiyaki. Drinking vinegar vaporware hashtag messenger bag meggings. Pork belly drinking vinegar echo park meggings selfies, gochujang pinterest kickstarter la croix vice.
           </p>
         </div>
       </div>
 
       <div className="row item">
         <div className="twelve columns">
-          <h3>Super Cool Studio</h3>
+          <h3>Super Cool Place</h3>
           <p className="info">
-            UX Designer
+            Sales Engineer
             <span>&bull;</span>
             <em className="date">March 2007 - February 2010</em>
           </p>
 
           <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
+          Lorem ipsum dolor amet master cleanse literally plaid shabby chic, biodiesel meh pok pok migas taiyaki. Vape wolf knausgaard af woke 3 wolf moon forage. Enamel pin pickled bushwick iceland, everyday carry chambray distillery live-edge photo booth offal thundercats hashtag cronut. Mustache williamsburg plaid bushwick.
           </p>
         </div>
       </div>

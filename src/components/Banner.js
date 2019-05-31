@@ -6,8 +6,9 @@ const Banner = () => (
     <div className="banner-text">
       <h1 className="responsive-headline">Joseph Edwards</h1>
       <h3>
-        Really cool tagline <span>here</span>
-        <br/>
+      <span>Writer, Sales Engineer <br />
+      Licensed Producer, Broker, and Caregiver</span>
+        {/* <br/>
         Let's
         <a className="smoothscroll" href="#about">
           {" "}
@@ -17,7 +18,7 @@ const Banner = () => (
         <a className="smoothscroll" href="#about">
           {" "}
           about me
-        </a>.
+        </a>. */}
       </h3>
       <hr />
       {/* <SocialLinks /> */}
