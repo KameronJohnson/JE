@@ -9,17 +9,17 @@ const Footer = () => (
         <SocialLinks />
 
         <ul className="copyright">
-          <li>&copy; Copyright 2018 CeeVee</li>
-          <li>
+          <li>&copy; Copyright 2019 Joseph Edwards</li>
+          {/* <li>
             Design by{" "}
             <a title="Styleshout" href="http://www.styleshout.com/">
               Styleshout
             </a>
-          </li>
+          </li> 
           <li>
             Developed in React ⚛️ by{" "}
             <a href="http://www.amanhimself.me">Aman Mittal</a>
-          </li>
+          </li>*/}
         </ul>
       </div>
 

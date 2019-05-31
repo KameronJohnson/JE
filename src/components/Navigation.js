@@ -40,7 +40,7 @@ class Navigation extends React.Component {
             Works
           </a>
         </li>
-        <li className={isCurrent('#testimonials', pathname)}>
+        {/* <li className={isCurrent('#testimonials', pathname)}>
           <a className="smoothscroll" href="#testimonials">
             Testimonials
           </a>
@@ -49,7 +49,7 @@ class Navigation extends React.Component {
           <a className="smoothscroll" href="#footer">
             Footer
           </a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   )}
