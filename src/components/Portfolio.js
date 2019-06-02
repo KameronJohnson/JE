@@ -97,7 +97,7 @@ const Portfolio = () => (
             </div>
           </div>
 
-          <div className="columns portfolio-item">
+          {/* <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-05" title="">
                 <img alt="" src={Farmerboy} />
@@ -148,7 +148,7 @@ const Portfolio = () => (
             </div>
           </div>
 
-          <div className="columns portfolio-item">
+          <div className="columns portfolio-item"> 
             <div className="item-wrap">
               <a href="#modal-08" title="">
                 <img alt="" src={Retrocam} />
@@ -163,7 +163,7 @@ const Portfolio = () => (
                 </div>
               </a>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
 

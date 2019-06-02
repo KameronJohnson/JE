@@ -16,20 +16,17 @@ const Education = () => (
             B.S. Business Administration 
             <span>&bull;</span>
             Focus on Entrepreneurship
-            <span>&bull;</span>
-            <em className="date">June 2008</em>
+            {/* <span>&bull;</span>
+            <em className="date">June 2008</em> */}
             <br />
             
             B.S. Political Science
             <span>&bull;</span>
             Focus on Game Theory and Organizational Behavior
-            <span>&bull;</span>
-            <em className="date">June 2008</em>
+            {/* <span>&bull;</span>
+            <em className="date">June 2008</em> */}
           </p>
 
-          <p>
-          Hot chicken before they sold out kinfolk, normcore artisan iceland portland taiyaki bitters ethical neutra ramps vice austin pinterest. Farm-to-table tofu listicle, knausgaard PBR&B iceland thundercats cronut wolf portland letterpress kitsch tote bag microdosing. Vape bushwick sartorial meggings sustainable coloring book vinyl enamel pin. Tilde offal kickstarter paleo chambray bushwick, man braid celiac fingerstache quinoa palo santo.
-          </p>
         </div>
       </div>
 

@@ -9,9 +9,24 @@ const Skills = () => (
     </div>
 
     <div className="nine columns main-col">
-      <p>
-      Schlitz enamel pin freegan marfa street art locavore banh mi leggings normcore try-hard chambray four loko. Keytar meggings salvia, poutine marfa organic hexagon subway tile unicorn vegan lyft mumblecore. Keytar beard vexillologist, raclette cornhole letterpress artisan poke.
-      </p>
+      <div className="skills-container">
+        <div className="skills-left">
+          <ul>
+            <li>Workflow-process management</li>
+            <li>Interpersonal communication</li>
+            <li>Problem solving in high stress environments</li>
+            <li>Diverse business acumen</li>
+          </ul>
+        </div>
+        <div className="skills-right">
+          <ul>
+            <li>Highly disciplined</li>
+            <li>Team player</li>
+            <li>Microsoft, Apple, & Linux</li>
+            <li>Agency management systems</li>
+          </ul>
+        </div>
+      </div>
 
       <div className="bars">
         <ul className="skills">

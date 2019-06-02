@@ -895,7 +895,8 @@ header .banner-text h3 a {
   color: honeydew;
 }
 header .banner-text hr {
-  width: 60%;
+  /* width: 60%; */
+  width: 0;
   margin: 18px auto 24px auto;
   border-color: #2f2d2e;
   border-color: rgba(150, 150, 150, 0.1);
@@ -1119,8 +1120,8 @@ ul#nav li.current a {
   padding-right: 10%;
 }
 
-.education,
-.work {
+.work,
+.skill {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
@@ -1144,7 +1145,23 @@ ul#nav li.current a {
 /*	Skill Bars
 /*----------------------------------------------*/
 
+.skills-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.skills-container > div {
+  min-width: 320px;
+}
+
+.skills-container ul {
+  list-style: disc;
+  margin: 0
+}
+
 .bars {
+  display: none;
   width: 95%;
   float: left;
   padding: 0;
