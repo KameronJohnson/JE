@@ -50,8 +50,8 @@ const Portfolio = () => (
                 <img alt="" src={Console} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
+                    <h5>Business Development</h5>
+                    {/* <p>Web Development</p> */}
                   </div>
                 </div>
                 <div className="link-icon">
@@ -67,8 +67,8 @@ const Portfolio = () => (
                 <img alt="" src={Judah} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Judah</h5>
-                    <p>Webdesign</p>
+                    <h5>Caregiving</h5>
+                    {/* <p>Webdesign</p> */}
                   </div>
                 </div>
                 <div className="link-icon">
@@ -84,8 +84,8 @@ const Portfolio = () => (
                 <img alt="" src={IntoTheLight} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Into The Light</h5>
-                    <p>Photography</p>
+                    <h5>Other</h5>
+                    {/* <p>Photography</p> */}
                   </div>
                 </div>
                 <div className="link-icon">
