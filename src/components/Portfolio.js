@@ -6,7 +6,7 @@ import Console from "../assets/images/portfolio/console.jpg";
 import Judah from "../assets/images/portfolio/judah.jpg";
 import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
 
-import edwardsLicensesDegrees from "../assets/documents/EdwardsLicensesDegrees.pdf";
+import edwardsLicensesDegrees from "../assets/documents/LicensesDegrees.pdf";
 
 import BuildingModal from "../assets/images/portfolio/modals/m-building.jpg";
 import ConsoleModal from "../assets/images/portfolio/modals/m-console.jpg";
