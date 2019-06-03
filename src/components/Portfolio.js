@@ -6,7 +6,7 @@ import Console from "../assets/images/portfolio/console.jpg";
 import Judah from "../assets/images/portfolio/judah.jpg";
 import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
 
-import edwardsLicensesDegrees from "../assets/documents/LicensesDegrees.pdf";
+import edwardsDetails from "../assets/documents/EdwardsDetails.pdf";
 
 import BuildingModal from "../assets/images/portfolio/modals/m-building.jpg";
 import ConsoleModal from "../assets/images/portfolio/modals/m-console.jpg";
@@ -183,7 +183,7 @@ const Portfolio = () => (
         </div>
 
         <div className="link-box">
-          <a href={edwardsLicensesDegrees} target="_blank">Details</a>
+          <a href={edwardsDetails} target="_blank">Details</a>
           <a href="#portfolio" className="popup-modal-dismiss">Close</a>
         </div>
       </div>
