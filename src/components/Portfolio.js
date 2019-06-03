@@ -1,16 +1,14 @@
 import React from "react";
 import { FaPlus, FaTag } from "react-icons/lib/fa";
 
-import Coffee from "../assets/images/portfolio/coffee.jpg";
+import Building from "../assets/images/portfolio/building.jpg";
 import Console from "../assets/images/portfolio/console.jpg";
 import Judah from "../assets/images/portfolio/judah.jpg";
 import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
-import Farmerboy from "../assets/images/portfolio/farmerboy.jpg";
-import Girl from "../assets/images/portfolio/girl.jpg";
-import Origami from "../assets/images/portfolio/origami.jpg";
-import Retrocam from "../assets/images/portfolio/retrocam.jpg";
 
-import CoffeeModal from "../assets/images/portfolio/modals/m-coffee.jpg";
+import edwardsLicensesDegrees from "../assets/documents/EdwardsLicensesDegrees.pdf";
+
+import BuildingModal from "../assets/images/portfolio/modals/m-building.jpg";
 import ConsoleModal from "../assets/images/portfolio/modals/m-console.jpg";
 import JudahModal from "../assets/images/portfolio/modals/m-judah.jpg";
 import IntoTheLightModal from "../assets/images/portfolio/modals/m-intothelight.jpg";
@@ -32,11 +30,11 @@ const Portfolio = () => (
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
-                <img alt="" src={Coffee} />
+                <img alt="" src={Building} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Coffee</h5>
-                    <p>Illustrration</p>
+                    <h5>State of Oregon</h5>
+                    <p>Agencies & Systems</p>
                   </div>
                 </div>
                 <div className="link-icon">
@@ -169,25 +167,23 @@ const Portfolio = () => (
 
       <div id="modal-01" className="popup-modal mfp-hide">
         <img
-          className="scale-with-grid"
-          src={CoffeeModal}
+          className="scale-with-grid deady"
+          src={BuildingModal}
           alt=""
         />
 
         <div className="description-box">
-          <h4>Coffee Cup</h4>
+          <h4>Licenses & Degrees Held</h4>
           <p>
-            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-            sem nibh id elit.
+          Division of Financial Regulation Producer,  Real Estate Agency Broker, Department of Human Services OHCC Enhanced Caregiver, and University of Oregon Multiple Degree Holder
           </p>
-          <span className="categories">
+          {/* <span className="categories">
             <FaTag /> Branding, Webdesign
-          </span>
+          </span> */}
         </div>
 
         <div className="link-box">
-          <a href="http://www.behance.net">Details</a>
+          <a href={edwardsLicensesDegrees} target="_blank">Details</a>
           <a href="#portfolio" className="popup-modal-dismiss">Close</a>
         </div>
       </div>

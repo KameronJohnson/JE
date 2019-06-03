@@ -838,8 +838,10 @@ body {
 header {
   position: relative;
   /* height: 800px; */
-  height: 950px;
-  min-height: 500px;
+  /* height: 950px;
+  min-height: 500px; */
+  max-height: 950px;
+  height: 100vh;
   width: 100%;
   /* background: #161415 url(../images/header-background.jpg) no-repeat top center; */
   /* background: #161415 url(../images/banner.png) no-repeat center center; */
@@ -1490,6 +1492,10 @@ ul#nav li.current a {
 .popup-modal a.popup-modal-dismiss {
   margin-left: 24px;
 }
+.deady {
+  max-height: 366px;
+  position: relative;
+}
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
@@ -1509,7 +1515,9 @@ ul#nav li.current a {
   opacity: 1;
   pointer-events: auto;
   position: absolute;
-  left: 30.9%;
+  /* left: 30.9%; */
+  left: 0;
+  right: 0;
 }
 
 .popup-modal > div {
@@ -2392,3 +2400,23 @@ footer .social li:first-child {
  footer .social li { margin-left: 14px; }
 
 }
+
+@media (min-width: 767px) {
+  .popup-modal {
+    min-width: 550px;
+  }
+  .deady {
+    left: 13%;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .popup-modal:target {
+    left: 15%;
+  }
+}
+@media (max-width: 767px) {
+  .popup-modal:target {
+    left: 30px;
+  }
+} */
