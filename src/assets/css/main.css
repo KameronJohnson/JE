@@ -1343,6 +1343,7 @@ ul#nav li.current a {
   padding-bottom: 60px;
 }
 #portfolio h1 {
+  display: none;
   font: 15px/24px "opensans-semibold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -2401,13 +2402,18 @@ footer .social li:first-child {
 
 }
 
+.popup-modal > img {
+  margin: auto;
+  display: flex;
+}
+
 @media (min-width: 767px) {
   .popup-modal {
     min-width: 550px;
   }
-  .deady {
+  /* .deady {
     left: 13%;
-  }
+  } */
 }
 
 /* @media (max-width: 768px) {

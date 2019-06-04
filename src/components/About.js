@@ -13,7 +13,7 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-        Lorem ipsum dolor amet cliche fanny pack messenger bag pork belly kinfolk, keytar crucifix deep v cardigan beard kale chips. Locavore snackwave umami hot chicken hexagon leggings swag vexillologist pok pok. Intelligentsia etsy tacos, occupy DIY trust fund truffaut adaptogen migas meggings before they sold out hoodie. Fam pabst la croix sriracha lo-fi cloud bread, cred tumblr woke narwhal photo booth ethical shoreditch raclette. Gluten-free ethical street art kitsch deep v wayfarers cloud bread letterpress squid celiac 90's asymmetrical freegan ennui vexillologist. Meh +1 cloud bread air plant cred, single-origin coffee tattooed distillery. Snackwave synth everyday carry, drinking vinegar bitters readymade humblebrag vexillologist vape salvia chicharrones.
+        In 2018 I relocated to Bend, Oregon for a period of reflection, after a successful career in Business Development. This time provided the opportunity to contract with multiple mobile applications while performing various care-giving duties at local organizations. I am rejuvenated and seeking new challenges with a creative and stable company. I am excited to align my wide-ranging skill-set with your growth needs. 
         </p>
         <div className="row">
           <div className="columns contact-details">
