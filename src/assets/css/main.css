@@ -1455,6 +1455,7 @@ ul#nav li.current a {
   z-index: 99999;
 }
 .popup-modal .description-box {
+  max-width: 100%;
   padding: 12px 36px 18px 36px;
 }
 .popup-modal .description-box h4 {
