@@ -7,37 +7,52 @@ const Work = () => (
         <span>Work</span>
       </h1>
     </div>
-
+    
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>Awesome Place</h3>
+          <h3>Roffman Real Estate Investments</h3>
           <p className="info">
-            Senior Something
+            Broker
             <span>&bull;</span>
-            <em className="date">March 2010 - Present</em>
+            <em className="date">2016-2017</em>
           </p>
-
-          <p>
-            Four dollar toast put a bird on it try-hard marfa cred occupy squid synth lomo viral chambray jean shorts bespoke irony crucifix. Succulents before they sold out flexitarian taiyaki. Drinking vinegar vaporware hashtag messenger bag meggings. Pork belly drinking vinegar echo park meggings selfies, gochujang pinterest kickstarter la croix vice.
-          </p>
+          <ul className="work-list">
+            <li>Organic business procurement: research regarding best use of existing assets and land development opportunities, prospect meetings, and proposal initiation</li>
+            <li>Provide clients alternative forms of financing within real estate risk management arena, including construction development and property management liabilities </li>
+          </ul>
         </div>
       </div>
 
       <div className="row item">
         <div className="twelve columns">
-          <h3>Super Cool Place</h3>
+          <h3>XDimensional Technologies</h3>
           <p className="info">
-            Sales Engineer
+            Sales Representative
             <span>&bull;</span>
-            <em className="date">March 2007 - February 2010</em>
+            <em className="date">2014-2015</em>
           </p>
-
-          <p>
-          Lorem ipsum dolor amet master cleanse literally plaid shabby chic, biodiesel meh pok pok migas taiyaki. Vape wolf knausgaard af woke 3 wolf moon forage. Enamel pin pickled bushwick iceland, everyday carry chambray distillery live-edge photo booth offal thundercats hashtag cronut. Mustache williamsburg plaid bushwick.
-          </p>
+          <ul className="work-list">
+            <li> Analyze and refine internal/external business process workflows with executive, analytical, marketing, and QA teams, in support of client needs-based reporting</li>
+            <li>Advance procedural efficiencies with development of communication templates</li>
+          </ul>
         </div>
       </div>
+
+      <div className="row item">
+        <div className="twelve columns">
+          <h3>Beecher Carlson</h3>
+          <p className="info">
+            Assistant Vice President
+            <span>&bull;</span>
+            <em className="date">2011-2014</em>
+          </p>
+          <ul className="work-list">
+            <li>Arrange new business meetings for executives and coworkers alike, ultimately resulting in over $250,000 of new revenue</li>
+            <li>Ensure completion of all client account underwriting and marketing tasks to highest ethical standards, in compliance with all applicable laws, regulations, policies, and procedures </li>
+          </ul>
+        </div>
+      </div>      
     </div>
   </div>
 );

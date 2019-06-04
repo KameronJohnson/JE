@@ -21,7 +21,7 @@ const Portfolio = () => (
   <section id="portfolio">
     <div className="row">
       <div className="twelve columns collapsed">
-        <h1>Check Out Some of My Works.</h1>
+        <h1>My Portfolio</h1>
 
         <div
           id="portfolio-wrapper"
@@ -172,11 +172,9 @@ const Portfolio = () => (
         />
 
         <div className="description-box">
-          <h4>Into the Light</h4>
+          <h4>More Coming Soon</h4>
           <p>
-            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-            sem nibh id elit.
+            Please check back shortly for updates...
           </p>
           {/* <span className="categories">
             <FaTag />Photography
