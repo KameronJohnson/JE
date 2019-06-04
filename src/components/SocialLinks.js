@@ -11,28 +11,8 @@ import {
 const SocialLinks = () => (
   <ul className="social">
     <li>
-      <a href="#">
-        <FaFacebook />
-      </a>
-    </li>
-    <li>
-      <a href="#">
+      <a href="https://twitter.com/JDE_live" target="_blank">
         <FaTwitter />
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <FaGooglePlus />
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <FaInstagram />
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <FaGithub />
       </a>
     </li>
   </ul>

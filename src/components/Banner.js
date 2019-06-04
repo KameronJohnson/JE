@@ -20,8 +20,8 @@ const Banner = () => (
           about me
         </a>. */}
       </h3>
+      <SocialLinks /> 
       <hr />
-      {/* <SocialLinks /> */}
     </div>
   </div>
 );
