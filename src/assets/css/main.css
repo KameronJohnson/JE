@@ -1165,10 +1165,11 @@ img.work-logo.beecher {
 .work-title {
   display: flex;
   flex-wrap: wrap;
-  align-items: center
+  align-items: center;
+  justify-content: space-between
 }
 #resume .work-title a {
-  margin-left: 15px;
+  /* margin-left: 15px; */
   display: block;
 }
 @media (max-width: 767px) {
@@ -1176,9 +1177,9 @@ img.work-logo.beecher {
     justify-content: center;
     flex-direction: column;
   }
-  #resume .work-title a {
+  /* #resume .work-title a {
     margin: 0
-  }
+  } */
   img.work-logo.beecher {
     margin-top: 0
   }
