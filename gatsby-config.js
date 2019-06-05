@@ -20,6 +20,13 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/src/blog`
+      }
+    },    
+    {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [`librebaskerville`, `open sans`]
