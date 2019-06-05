@@ -1145,6 +1145,38 @@ ul#nav li.current a {
   list-style: disc;
   margin-left: 20px;
 }
+.position {
+  display: inline;
+  font-weight: bold
+}
+img.work-logo {
+  max-width: 200px;
+  max-height: 50px
+}
+img.work-logo.beecher {
+  margin-top: -4px
+}
+.work-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center
+}
+#resume .work-title a {
+  margin-left: 15px;
+  display: block;
+}
+@media (max-width: 767px) {
+  .work-title {
+    justify-content: center;
+    flex-direction: column;
+  }
+  #resume .work-title a {
+    margin: 0
+  }
+  img.work-logo.beecher {
+    margin-top: 0
+  }
+}
 
 /*----------------------------------------------*/
 /*	Skill Bars
