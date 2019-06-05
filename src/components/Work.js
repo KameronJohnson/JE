@@ -14,7 +14,6 @@ const Work = () => (
     </div>
     
     <div className="nine columns main-col">
-
       <div className="row item">
         <div className="twelve columns">
           <h3>Roffman Real Estate Investments</h3>
