@@ -3,7 +3,7 @@ import React from "react";
 import XDimLogo from "../assets/images/xdim.png";
 import MmLogo from "../assets/images/mm.jpg";
 import BeecherLogo from "../assets/images/beecher.jpg";
-import HubLogo from "../assets/images/hub.png";
+import HubLogo from "../assets/images/hub-logo.png";
 
 const Work = () => (
   <div className="row work">
