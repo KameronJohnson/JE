@@ -6,7 +6,7 @@ import Skills from "./Skills";
 
 const Resume = () => (
   <section id="resume">
-    <Skills />
+    {/* <Skills /> */}
     <Work />
     <Education />
   </section>

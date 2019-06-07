@@ -873,7 +873,6 @@ header .banner {
   padding-bottom: 30px;
   text-align: center;
 }
-
 header .banner-text {
   width: 100%;
 }
@@ -894,7 +893,7 @@ header .banner-text h3 {
   /* text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); */
   text-shadow: 2px 2px 6px rgba(0, 0, 0, .8);
   padding: 2px 0;
-  background: rgba(0,0,0,.3);
+  /* background: rgba(0,0,0,.3); */
   max-width: 320px;
 }
 header .banner-text h3 span,
@@ -911,12 +910,36 @@ header .banner-text hr {
 }
 
 /* header social links */
+
 header .social {
+  display: block;
   margin: 24px 0;
   padding: 0;
   font-size: 30px;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
+
+header .social-desktop .social {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  margin-top: 10px !important;
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  header .social {
+    display: none;
+  }
+  header .social-desktop .social {
+    display: block;
+  }
+   header #nav-wrap .social-desktop .social li {
+    margin-right: 20px;
+  }
+}
+
 header .social li {
   display: inline-block;
   margin: 0 15px;
@@ -932,7 +955,8 @@ header .social li a:hover {
 /* scrolldown link */
 header .scrolldown a {
   position: absolute;
-  bottom: 30px;
+  /* bottom: 30px; */
+  bottom: 20px;
   left: 50%;
   /* margin-left: -29px; */
   margin-left: -23px;
@@ -953,6 +977,8 @@ header .scrolldown a {
 header .scrolldown a:hover {
   color: #11abb0;
 }
+
+
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -2468,3 +2494,50 @@ footer .social li:first-child {
     left: 30px;
   }
 } */
+
+
+/* ------------------------------------------------------------------ */
+/* j. New Skills Section
+/* ------------------------------------------------------------------ */
+
+#skills-section {
+  background: #ebeeee;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  overflow: hidden;
+}
+
+.skills-box {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+  margin: 50px 0 0;
+  padding: 1.5em;
+}
+
+#skills-section h2 {
+  text-align: center;
+}
+
+#skills-section h3 {
+  margin: .25em 0 1.25em;
+  text-align: center;
+}
+
+.icon-container {
+  color: #11ABB0;
+}
+
+.skills-desc {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 2em;
+}
+
+.skills-desc ul {
+  list-style-type: circle;
+  margin: 0;
+}

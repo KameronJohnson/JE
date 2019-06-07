@@ -1,4 +1,5 @@
 import React from "react";
+import SocialLinks from "./SocialLinks";
 
 const isCurrent = (anchor, pathname) => (
   pathname.endsWith(anchor)
@@ -30,6 +31,11 @@ class Navigation extends React.Component {
             About
           </a>
         </li>
+        <li className={isCurrent('#skills-section', pathname)}>
+          <a className="smoothscroll" href="#skills-section">
+            Skills
+          </a>
+        </li>
         <li className={isCurrent('#resume', pathname)}>
           <a className="smoothscroll" href="#resume">
             Resume
@@ -40,17 +46,10 @@ class Navigation extends React.Component {
             Portfolio
           </a>
         </li>
-        {/* <li className={isCurrent('#testimonials', pathname)}>
-          <a className="smoothscroll" href="#testimonials">
-            Testimonials
-          </a>
-        </li>
-        <li className={isCurrent('#footer', pathname)}>
-          <a className="smoothscroll" href="#footer">
-            Footer
-          </a>
-        </li> */}
       </ul>
+      <div className="social-desktop">
+        <SocialLinks />
+      </div>
     </nav>
   )}
 };
