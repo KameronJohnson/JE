@@ -845,16 +845,22 @@ header {
   width: 100%;
   /* background: #161415 url(../images/header-background.jpg) no-repeat top center; */
   /* background: #161415 url(../images/banner.png) no-repeat center center; */
-  background: #161415 url(../images/banner.png) no-repeat 35% 50%;
+  background: #161415 url(../images/banner.png) no-repeat top;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
 }
 
-@media (max-height: 663px) {
+/* @media (max-height: 663px) {
   header {
     background-position: top;
+  }
+} */
+
+@media (max-width: 767px) {
+  header {
+    background-position: 35% 50%;
   }
 }
 
