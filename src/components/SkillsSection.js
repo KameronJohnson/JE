@@ -59,12 +59,12 @@ const SkillsSection = () => (
           <div className="icon-container">
             <FaLifeRing size={70}/>
           </div>
-          <h3>Building C-Suite, <br />Director Level Relationships</h3>
+          <h3>Building C-Suite Relationships</h3>
           <div className="skills-desc">
             <ul>
+              <li>Unique Approach To Gaining Access</li>
               <li>Immediate Interest Generation</li>
-              <li>Quickly Understanding Company Specific Leadership Roles</li>
-              <li>Creating Efficiencies, Eliminating Unnecessary Risks</li>
+              <li>Quick To Learn Company Specific Leadership Roles</li>
             </ul>
           </div>
         </div>
@@ -86,7 +86,7 @@ const SkillsSection = () => (
           </div>
         </div>
       </div>   
-      <div className="six columns">
+      {/* <div className="six columns">
         <div className="skills-box">
           <div className="icon-container">
             <FaPenFancy size={70}/>
@@ -100,7 +100,7 @@ const SkillsSection = () => (
               </ul>
           </div>
         </div>
-      </div>      
+      </div>       */}
     </div>       
   </section>
 );
