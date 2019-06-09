@@ -917,6 +917,15 @@ header .banner-text hr {
   border-color: rgba(150, 150, 150, 0.1);
 }
 
+@media (min-width: 900px) {
+  .responsive-headline {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+  }
+}
+
 /* header social links */
 
 header .social {
@@ -2131,7 +2140,10 @@ footer .social li:first-child {
 
   /* header styles
  ------------------------------------------------------------------ */
- header .banner { padding-bottom: 12px; }
+ header .banner { 
+   /* padding-bottom: 12px;  */
+   padding-bottom: 5em;
+  }
  header .banner-text h1 {
     font: 78px/1.1em 'opensans-bold', sans-serif;
     letter-spacing: -1px;
@@ -2538,6 +2550,15 @@ footer .social li:first-child {
   margin: 50px 0 0;
   padding: 1.5em;
   box-shadow: 0px 3px 10px -7px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 900px) and (min-width: 768px) {
+  .skills-box.top {
+    min-height: 393px;
+  }
+  .skills-box.bottom {
+    min-height: 346px;
+  }
 }
 
 #skills-section h2 {

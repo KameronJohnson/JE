@@ -8,7 +8,7 @@ const SkillsSection = () => (
     </div>
     <div className="row">
       <div className="six columns">
-        <div className="skills-box">
+        <div className="skills-box top">
           <div className="icon-container">
             <FaBusinessTime size={70}/>
           </div>
@@ -24,7 +24,7 @@ const SkillsSection = () => (
         </div>
       </div>
       <div className="six columns">
-        <div className="skills-box">
+        <div className="skills-box top">
           <div className="icon-container">
             <FaRegHandshake size={70}/>
           </div>
@@ -42,7 +42,7 @@ const SkillsSection = () => (
     </div>
     <div className="row">
       <div className="six columns">
-        <div className="skills-box">
+        <div className="skills-box bottom">
           <div className="icon-container">
             <FaChartPie size={70}/>
           </div>
@@ -50,14 +50,14 @@ const SkillsSection = () => (
           <div className="skills-desc">
             <ul>
               <li>Advanced Agency Management & CRM Systems User</li>
-              <li>Proficiency in Microsoft, Apple, & Linux Frameworks</li>
+              <li>Proficiency With Microsoft, Apple, & Linux Frameworks</li>
               <li>Marketing & Social Media Strategy Implementation</li>
             </ul>
           </div>
         </div>
       </div>
       <div className="six columns">
-        <div className="skills-box">
+        <div className="skills-box bottom">
           <div className="icon-container">
             <FaLifeRing size={70}/>
           </div>
