@@ -68,7 +68,7 @@ const Portfolio = () => (
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>Caregiving</h5>
-                    <p>How?</p>
+                    <p>Make an Impact</p>
                   </div>
                 </div>
                 <div className="link-icon">
@@ -85,7 +85,7 @@ const Portfolio = () => (
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>Other</h5>
-                    <p>Just For Men</p>
+                    {/* <p>Just For Men</p> */}
                   </div>
                 </div>
                 <div className="link-icon">
