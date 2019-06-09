@@ -4,7 +4,7 @@ import { FaRegHandshake, FaBusinessTime, FaChartPie, FaPenFancy, FaLifeRing, FaP
 const SkillsSection = () => (
   <section id="skills-section">
     <div className="row">
-      <h2>Skills</h2>
+      <h1><span>Skills</span></h1>
     </div>
     <div className="row">
       <div className="six columns">
