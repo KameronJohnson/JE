@@ -16,7 +16,8 @@ const SkillsSection = () => (
           <div className="skills-desc">
             <ul>
               <li>Highly Developed Presentation Skills</li>
-              <li>Workflow-Process Management</li>
+              <li>Workflow & Template Management</li>
+              <li>Creative, Team-Focused Process</li>
               <li>Proven Ability To Negotiate & Close The Deal</li>
             </ul>
           </div>
@@ -31,8 +32,9 @@ const SkillsSection = () => (
             <div className="skills-desc">
               <ul>
                 <li>Cold Call Phone Master</li>
-                <li>Trained Template Writer</li>
+                <li>Incorporates Entertainment & Sense Of Humor</li>
                 <li>Problem Solving In High Stress Environments</li>
+                <li>Equally Respect All Coworkers & Clients</li>
               </ul>
           </div>
         </div>
@@ -49,7 +51,7 @@ const SkillsSection = () => (
             <ul>
               <li>Advanced Agency Management & CRM Systems User</li>
               <li>Proficiency in Microsoft, Apple, & Linux Frameworks</li>
-              <li>Marketing, Research, & Social Media Strategy Implementation</li>
+              <li>Marketing & Social Media Strategy Implementation</li>
             </ul>
           </div>
         </div>
@@ -70,7 +72,7 @@ const SkillsSection = () => (
         </div>
       </div>
     </div>    
-    <div className="row">
+    {/* <div className="row">
       <div className="six columns">
         <div className="skills-box">
           <div className="icon-container">
@@ -86,7 +88,7 @@ const SkillsSection = () => (
           </div>
         </div>
       </div>   
-      {/* <div className="six columns">
+      <div className="six columns">
         <div className="skills-box">
           <div className="icon-container">
             <FaPenFancy size={70}/>
@@ -100,8 +102,8 @@ const SkillsSection = () => (
               </ul>
           </div>
         </div>
-      </div>       */}
-    </div>       
+      </div> 
+    </div>        */}
   </section>
 );
 

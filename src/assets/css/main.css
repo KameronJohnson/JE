@@ -2508,7 +2508,7 @@ footer .social li:first-child {
 
 #skills-section {
   background: #ebeeee;
-  background: #ebeeee url(../images/transp_bg.png) repeat;
+  /* background: #ebeeee url(../images/transp_bg.png) repeat; */
   padding-top: 60px;
   padding-bottom: 90px;
   overflow: hidden;
