@@ -1,7 +1,8 @@
 import React from "react";
 import {
   FaTwitter,
-  FaLinkedin
+  FaLinkedin,
+  FaEnvelope
 } from "react-icons/fa";
 // https://gorangajic.github.io/react-icons/fa.html
 
@@ -15,6 +16,11 @@ const SocialLinks = () => (
     <li>
       <a href="https://www.linkedin.com/in/JDELive/" target="_blank">
         <FaLinkedin />
+      </a>
+    </li>
+    <li>
+      <a href="mailto:mail@josephedwards.life">
+        <FaEnvelope />
       </a>
     </li>
   </ul>
