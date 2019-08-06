@@ -2,7 +2,7 @@ import React from "react";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
 import profilePic from "../assets/images/joseph.jpg";
-import edwardsResume from "../assets/documents/EdwardsResume3.pdf";
+import edwardsResume from "../assets/documents/EdwardsResume.pdf";
 
 const About = () => (
   <section id="about">
@@ -20,10 +20,8 @@ const About = () => (
             <h2>Contact Details</h2>
             <p className="address">
               <span>Joseph Edwards</span>
-              <br />
               <span>
-                PO Box 1062
-                <br /> Bend, OR 97709
+                <br /> Bend, OR
               </span>
               <br />
               <span><a href="mailto:mail@josephedwards.life">mail@josephedwards.life</a></span>
