@@ -3,7 +3,7 @@ import { FaPlus, FaTag } from "react-icons/fa";
 
 import Building from "../assets/images/portfolio/building.jpg";
 import BuildingModal from "../assets/images/portfolio/modals/m-building.jpg";
-import EdwardsDetails from "../assets/documents/EdwardsDetails2.pdf";
+import EdwardsDetails from "../assets/documents/EdwardsDetails-12-2019.pdf";
 
 import BusinessDevelopment from "../assets/images/portfolio/businessdevelopment.jpg";
 import BusinessDevelopmentModal from "../assets/images/portfolio/modals/m-businessdevelopment.jpg";
