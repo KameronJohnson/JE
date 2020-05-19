@@ -15,6 +15,7 @@ import CaregivingDetails from "../assets/documents/CaregivingDetails.pdf";
 
 import Other from "../assets/images/portfolio/other.jpg";
 import OtherModal from "../assets/images/portfolio/modals/m-other.jpg";
+import OtherDetails from "../assets/documents/Binder1.pdf";
 
 
 const Portfolio = () => (
@@ -182,7 +183,7 @@ const Portfolio = () => (
         </div>
 
         <div className="link-box">
-          {/* <a href="http://www.behance.net">Details</a> */}
+          <a href={OtherDetails}>Details</a>
           <a href="#portfolio" className="popup-modal-dismiss">Close</a>
         </div>
       </div>

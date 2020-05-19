@@ -1104,8 +1104,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 125px;
-  height: 125px;
+  width: 175;
+  height: 175px;
   border-radius: 100%;
 }
 #about .contact-details {

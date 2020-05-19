@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
-import profilePic from "../assets/images/joseph.jpg";
+import profilePic from "../assets/images/joseph2.jpg";
 import edwardsResume from "../assets/documents/EdwardsResume.pdf";
 
 const About = () => (
