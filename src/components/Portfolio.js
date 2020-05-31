@@ -16,6 +16,7 @@ import CaregivingDetails from "../assets/documents/CaregivingDetails.pdf";
 import Other from "../assets/images/portfolio/other.jpg";
 import OtherModal from "../assets/images/portfolio/modals/m-other.jpg";
 import OtherDetails from "../assets/documents/Binder1.pdf";
+import DiscussionBoardSubmissions from "../assets/documents/DiscussionBoardSubmissions.pdf";
 
 
 const Portfolio = () => (
@@ -173,10 +174,11 @@ const Portfolio = () => (
         />
 
         <div className="description-box">
-          <h4>More Coming Soon</h4>
-          <p>
+          {/* <h4>More Coming Soon</h4> */}
+          <h4><a target="_blank" href={DiscussionBoardSubmissions}>Discussion Board Submissions</a></h4>
+          {/* <p>
             Please check back shortly for updates...
-          </p>
+          </p> */}
           {/* <span className="categories">
             <FaTag />Photography
           </span> */}
