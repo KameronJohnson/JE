@@ -15,7 +15,7 @@ import CaregivingDetails from "../assets/documents/CaregivingDetails.pdf";
 
 import Other from "../assets/images/portfolio/other.jpg";
 import OtherModal from "../assets/images/portfolio/modals/m-other.jpg";
-import OtherDetails from "../assets/documents/Binder1.pdf";
+import OtherDetails from "../assets/documents/Post.pdf";
 import DiscussionBoardSubmissions from "../assets/documents/DiscussionBoardSubmissions.pdf";
 
 
