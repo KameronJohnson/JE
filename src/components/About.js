@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCloudDownloadAlt } from "react-icons/fa";
+import joeVideo from "../assets/video/joe.mp4";
 
 import profilePic from "../assets/images/joseph2.jpg";
 import edwardsResume from "../assets/documents/EdwardsResume.pdf";
@@ -37,6 +38,15 @@ const About = () => (
         </div>
       </div>
     </div>
+
+    <div className="row">
+        <div className="video-container">
+            <video controls disablePictureInPicture controlsList="nodownload">
+            <source src={joeVideo} type="video/mp4" />
+            </video>
+        </div>
+    </div>
+ 
   </section>
 );
 

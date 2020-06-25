@@ -1134,6 +1134,20 @@ ul#nav li.current a {
   padding-top: 3px
 }
 
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-container video {
+    max-width: 100%;
+}
+
+.full-page-video {
+    text-align: center;
+    max-width: 100%;
+}
+
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
