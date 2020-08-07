@@ -11,7 +11,7 @@ import BusinessDevelopmentDetails from "../assets/documents/BusinessDevelopmentD
 
 import Caregiver from "../assets/images/portfolio/caregiver.jpg";
 import CaregiverModal from "../assets/images/portfolio/modals/m-caregiver.jpg";
-import CaregivingDetails from "../assets/documents/CaregivingDetails.pdf";
+import CaregivingDetails from "../assets/documents/Caregiving.pdf";
 
 import Other from "../assets/images/portfolio/other.jpg";
 import OtherModal from "../assets/images/portfolio/modals/m-other.jpg";
@@ -108,7 +108,7 @@ const Portfolio = () => (
         />
 
         <div className="description-box">
-          <h4>Licenses & Degrees Held</h4>
+          <h4>Current/Past Licenses & Degrees Held</h4>
           <p>
           Division of Financial Regulation Producer,  Real Estate Agency Broker, Department of Human Services OHCC Enhanced Caregiver, and University of Oregon Multiple Degree Holder
           </p>
@@ -175,6 +175,9 @@ const Portfolio = () => (
 
         <div className="description-box">
           {/* <h4>More Coming Soon</h4> */}
+          <h4>What does one find in the “other” section? </h4>
+          <p>You will find a continuously updated amalgamation of issues I’m dealing
+with on an ongoing basis!</p>
           <h4><a target="_blank" href={DiscussionBoardSubmissions}>Discussion Board Submissions</a></h4>
           {/* <p>
             Please check back shortly for updates...

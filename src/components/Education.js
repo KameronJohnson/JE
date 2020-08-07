@@ -25,6 +25,10 @@ const Education = () => (
             Focus on Game Theory and Organizational Behavior
             {/* <span>&bull;</span>
             <em className="date">June 2008</em> */}
+            <br />
+            Southern Oregon University
+            <span>&bull;</span>
+            Post-Baccalaureate Accounting Certificate Expected Spring 2021
           </p>
 
         </div>

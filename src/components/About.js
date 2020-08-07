@@ -2,8 +2,8 @@ import React from "react";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import joeVideo from "../assets/video/joe.mp4";
 
-import profilePic from "../assets/images/joseph2.jpg";
-import edwardsResume from "../assets/documents/EdwardsResume.pdf";
+import profilePic from "../assets/images/joseph3.jpg";
+import edwardsResume from "../assets/documents/EdwardsResume2020.pdf";
 
 const About = () => (
   <section id="about">
@@ -14,7 +14,10 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-        In 2018 I relocated to Bend, Oregon for a period of reflection, after a successful career in Business Development. This time provided the opportunity to contract with multiple mobile applications while performing various care-giving duties at local organizations. I am rejuvenated and seeking new challenges with a creative and stable company. I am excited to align my wide-ranging skill-set with your growth needs. 
+        With the evolution of the global pandemic, I am utilizing this period of uncertainty to complete a Post-Baccalaureate
+Accounting Certificate at Southern Oregon University. Inspired to continue expanding my base of knowledge, I
+remain open to new challenges and opportunities to align my wide-ranging skill-set with your institution’s mission,
+vision, and goals.
         </p>
         <div className="row">
           <div className="columns contact-details">
@@ -39,13 +42,13 @@ const About = () => (
       </div>
     </div>
 
-    <div className="row">
+    {/* <div className="row">
         <div className="video-container">
             <video controls disablePictureInPicture controlsList="nodownload">
             <source src={joeVideo} type="video/mp4" />
             </video>
         </div>
-    </div>
+    </div> */}
  
   </section>
 );
