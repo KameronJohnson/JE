@@ -3,7 +3,7 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 import joeVideo from "../assets/video/joe.mp4";
 
 import profilePic from "../assets/images/joseph3.jpg";
-import edwardsResume from "../assets/documents/EdwardsResume2020.pdf";
+import edwardsResume from "../assets/documents/EdwardsResume.pdf";
 
 const About = () => (
   <section id="about">
