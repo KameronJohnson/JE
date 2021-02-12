@@ -14,10 +14,7 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-        With the evolution of the global pandemic, I am utilizing this period of uncertainty to complete a Post-Baccalaureate
-Accounting Certificate at Southern Oregon University. Inspired to continue expanding my base of knowledge, I
-remain open to new challenges and opportunities to align my wide-ranging skill-set with your institution’s mission,
-vision, and goals.
+        Inspired to continue expanding my base of knowledge, I remain open to new challenges and opportunities to align my wide-ranging skill-set with your institution’s mission, vision, and goals.
         </p>
         <div className="row">
           <div className="columns contact-details">
